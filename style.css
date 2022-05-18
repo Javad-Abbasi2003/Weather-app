@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+body{
+    background-color: #cfcfcf;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.head{
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    color: #0e0d29;
+    text-shadow: 2px 2px 5px #2d2d2dc2,
+    -2px -2px 5px #ffffff;
+}
+.container{
+    margin: 70px auto 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.inputCity{
+    background-color :#dadee0;
+    border-radius: 20px;
+    border: 1px solid #d8d8d8;
+    box-shadow:  7px 7px 20px #bcbcbc,
+    -7px -7px 20px #ffffff;
+}
+form{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.inputCity input, button{
+    margin: 20px;
+    font-size:20px;
+    height: 40px;
+    padding: 7px;
+    border-radius: 10px;
+    border: solid 1px #707070;
+}
+button{
+    border: 1px solid #d8d8d8;
+    box-shadow:  2px 2px 5px #bcbcbc,
+    -2px -2px 5px #ffffff;
+    background-color:#e6e6e6;
+    margin-left: 0px;
+}
+.clear{
+    margin-right: 20px;
+    margin-left: 0px;
+}
+.inputCity button:hover{
+    background-color:#eeeeee;
+    cursor: pointer;
+}
+.inputCity button:active{
+    box-shadow: inset 2px 2px 5px #bcbcbc,
+    inset -2px -2px 5px #ffffff;
+}
+.inputCity input {
+    width: 400px;
+    height: 30px;
+    background-color: #e2e2e2;
+	border: 1px solid #cecece;
+    box-shadow: inset 4px 4px 10px #bcbcbc,
+    inset -4px -4px 10px #ffffff;
+    text-shadow: 1px 1px 2px #2d2d2dc2,
+    -1px -1px 2px #ffffff;
+    color: black;
+}
+.cities{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.city{
+    width: 177px;
+    height: 300px;
+    margin: 10px;
+    background-color :#dadee0;
+    border-radius: 20px;
+    border: 1px solid #d8d8d8;
+    box-shadow:  5px 5px 12px #bcbcbc,
+    -5px -5px 12px #f7f7f7;
+}
+.cityName{
+    margin: 20px;
+    display: flex;
+    font-weight: 300;
+}
+.cityName h2, .cityName h4{
+    font-weight: 300;
+    text-shadow: 1px 1px 2px #2d2d2dc2,
+    -1px -1px 2px #ffffff;
+}
+.temp{
+    font-size: 35px;
+    margin: 25px;
+}
+.humid{
+    font-size:15px;
+    margin-left: 25px;
+}
+.city img{
+    padding-left: 25px;
+}
+.city p{
+    padding-left: 25px;
+}
